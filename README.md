@@ -6,6 +6,11 @@
 </p>
 
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=aravind050906-jpg&label=Profile%20Views&color=2E9EF7&style=for-the-badge" />
+  <img src="https://img.shields.io/github/followers/aravind050906-jpg?label=Followers&style=for-the-badge&color=2E9EF7" />
+</p>
+
+<p align="center">
   <a href="https://www.linkedin.com/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
@@ -27,6 +32,26 @@
 - 🌱 Eager to learn new technologies and grow as a **Software Engineer**
 - 📫 Reach me at **aravindprofessional05@gmail.com**
 - ⚡ Fun fact: I enjoy turning complex ideas into simple, usable products — from government scheme finders to AI comic generators!
+
+<details>
+<summary>🧭 <b>Click to see what I'm currently up to</b></summary>
+<br>
+
+- 🔭 Currently building projects around **RAG pipelines** and **AI-powered tools**
+- 🌱 Learning: Advanced DSA, System Design fundamentals, and LLM application development
+- 👯 Looking to collaborate on **AI/ML** and **full-stack** projects
+- 🤔 Looking for guidance on: Open-source contributions and internship opportunities
+- 💬 Ask me about: Python, RAG, LangChain, or anything Data Structures & Algorithms
+
+</details>
+
+<details>
+<summary>😄 <b>Random dev joke (click to reveal)</b></summary>
+<br>
+
+> Why do programmers prefer dark mode? Because light attracts bugs. 🐛
+
+</details>
 
 ---
 
@@ -82,9 +107,15 @@
 
 An AI-powered recommendation platform that surfaces relevant government welfare schemes based on a user's location, eligibility, and income criteria.
 
+<details>
+<summary>📌 See details</summary>
+<br>
+
 - Built a **Retrieval-Augmented Generation (RAG)** pipeline with LangChain + ChromaDB for semantic search
 - Designed an intuitive UI to explore eligibility, benefits, and direct application links
 - Optimized document preprocessing & retrieval workflows for higher precision
+
+</details>
 
 </td>
 <td width="50%" valign="top">
@@ -94,9 +125,15 @@ An AI-powered recommendation platform that surfaces relevant government welfare 
 
 An AI-powered tool that transforms complex academic topics into engaging, comic-based learning content.
 
+<details>
+<summary>📌 See details</summary>
+<br>
+
 - Enabled fully customizable comic generation from user-input topics
 - Automated end-to-end generation by integrating the OpenAI API with image-processing workflows
 - Built modular components for text generation, image processing & rendering
+
+</details>
 
 </td>
 </tr>
@@ -124,6 +161,24 @@ An AI-powered tool that transforms complex academic topics into engaging, comic-
 
 ---
 
+### 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aravind050906-jpg/aravind050906-jpg/output/github-contribution-grid-snake.svg" alt="Contribution Snake animation" />
+</p>
+
+> 🔧 This animates automatically once you add the snake workflow — see setup note at the bottom.
+
+---
+
+### 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=aravind050906-jpg&theme=tokyonight&no-frame=true&row=1&column=6" />
+</p>
+
+---
+
 ### 📊 GitHub Stats
 
 <p align="center">
@@ -134,6 +189,49 @@ An AI-powered tool that transforms complex academic topics into engaging, comic-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aravind050906-jpg&layout=compact&theme=tokyonight" width="60%" />
 </p>
+
+---
+
+> 💡 Live stats need at least one public repo with commit activity — push some code and these fill in automatically!
+
+<details>
+<summary>⚙️ <b>How to activate the contribution snake (one-time setup)</b></summary>
+<br>
+
+1. In your `aravind050906-jpg/aravind050906-jpg` repo, go to **Actions → New workflow → set up a workflow yourself**
+2. Name the file `snake.yml` and paste the workflow below
+3. Commit it — it runs automatically every day and updates the animation above
+
+```yaml
+name: Generate Snake
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: aravind050906-jpg
+          outputs: dist/github-contribution-grid-snake.svg
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+</details>
 
 ---
 
